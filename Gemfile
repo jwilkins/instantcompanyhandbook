@@ -61,3 +61,10 @@ gem 'uuidtools' # for generating uuids, see https://github.com/aduffeck/uuid_it
 
 gem 'fancy-buttons' # plugin for compass, pretty buttons
 gem 'delayed_job'
+
+gem 'capistrano'
+gem 'capistrano-ext'
+
+group :production do
+  gem "mysql"
+end
