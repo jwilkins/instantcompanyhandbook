@@ -8,9 +8,11 @@ set :application, "instantcompanyhandbook.com"
 set :user, "applicake"
 
 set :scm, :git
-set :repository, "git@vzaar.beanstalkapp.com:/video-distributor-3.git"
+set :repository, "git@github.com:applicake/instantcompanyhandbook.git"
 set :deploy_to, "/var/www/#{application}"
 set :deploy_via, :remote_cache
+
+set :default_shell, "/bin/bash --login"
 #set :scm_username, ENV["APLLICAKE_DEPLOY_BOT_USERNAME"]
 #set :scm_password, ENV["APPLICAKE_DEPLOY_BOT_PASSWORD"]
 
