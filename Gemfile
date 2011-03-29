@@ -69,5 +69,5 @@ gem 'capistrano'
 gem 'capistrano-ext'
 
 group :production do
-  gem "mysql"
+  gem "mysql2"
 end

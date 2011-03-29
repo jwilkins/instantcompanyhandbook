@@ -8,7 +8,7 @@ namespace :deploy do
   end
 
   desc "Migrate database."
-  task :migrate, :only => {:main => true} do
+  task :migrate do
     run "cd #{release_path} && RAILS_ENV=production rake db:migrate"
   end
 end
